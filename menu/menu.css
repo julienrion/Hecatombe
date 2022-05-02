@@ -1,0 +1,53 @@
+body {
+  background-image: url(/assets/chandelier.gif);
+  background-size: cover;
+}
+
+.title {
+  width: 1050px;
+  background-color: none;
+  color: rgb(255, 0, 0);
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.charger {
+  width: 750px;
+  background-color: none;
+  color: rgb(255, 0, 0);
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.jouer {
+  width: 520px;
+  background-color: none;
+  color: rgb(255, 0, 0);
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.quitter {
+  width: 670px;
+  background-color: none;
+  color: rgb(255, 0, 0);
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+li.selected {
+  background: yellow;
+}
